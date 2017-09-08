@@ -7,18 +7,12 @@
     tools:context="com.demo.tomcat.fragmentdemo.MainActivity">
 
     <fragment
-        android:id="@+id/fragment1"
-        android:name="android.preference.PreferenceFragment"
+        android:id="@+id/mainfragment"
+        android:name="com.demo.tomcat.fragmentdemo.MainFragment"
         android:layout_width="381dp"
         android:layout_height="400dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="195dp" />
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="android.preference.PreferenceFragment"
-        android:layout_width="381dp"
-        android:layout_height="398dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="195dp" />
 </android.support.constraint.ConstraintLayout>
